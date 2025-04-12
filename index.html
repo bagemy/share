@@ -8,11 +8,14 @@
       font-family: sans-serif;
       text-align: center;
       background-color: #f0f8ff;
+      position: relative;
+      min-height: 100vh;
+      padding-bottom: 150px; /* 하단 공간 확보 */
     }
     h1 {
       margin-top: 60px;
       color: #2e8b57;
-      font-size: 9em; /* 기존보다 3배 더 크게 (총 약 15배) */
+      font-size: 9em;
     }
     .day-list {
       display: grid;
@@ -28,7 +31,7 @@
       padding: 80px 20px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.15);
       transition: transform 0.2s;
-      font-size: 6em; /* 기존보다 3배 더 크게 */
+      font-size: 6em;
     }
     .day:hover {
       transform: translateY(-15px);
@@ -36,6 +39,19 @@
     a {
       text-decoration: none;
       color: #333;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      right: 40px;
+      display: flex;
+      align-items: center;
+      font-size: 2em;
+      color: #555;
+    }
+    .footer img {
+      height: 60px;
+      margin-right: 15px;
     }
   </style>
 </head>
@@ -47,4 +63,15 @@
     <div class="day"><a href="day3.html">4/16(수) ☁️<br>하늘</a></div>
     <div class="day"><a href="day4.html">4/17(목) 🌍<br>땅</a></div>
     <div class="day"><a href="day5.html">4/18(금) 💧<br>물</a></div>
-    <div class="day"><a href="day6.html">4/19(토)
+    <div class="day"><a href="day6.html">4/19(토) 🌱<br>식물</a></div>
+    <div class="day"><a href="day7.html">4/20(일) 🐾<br>동물</a></div>
+    <div class="day"><a href="day8.html">4/21(월) 🧍<br>인간</a></div>
+    <div class="day"><a href="day9.html">4/22(화) ✨<br>안식일</a></div>
+  </div>
+
+  <div class="footer">
+    <img src="대야미성당로고p.png" alt="대야미 성당 로고">
+    <span>대야미 성당</span>
+  </div>
+</body>
+</html>
